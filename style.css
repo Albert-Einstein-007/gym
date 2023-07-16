@@ -82,6 +82,7 @@ header ul li .active{
     word-spacing: 15px;
 }
 /* ---------------what we do------------ */
+
 .img-place h1{
     text-align: center;
     text-transform: uppercase;
@@ -246,9 +247,10 @@ footer p{
         text-align: center;
     }
     .welcome h1{ 
-        font-size: 40px;
+        font-size: 30px;
     }
     .welcome h3{
+        font-size: 20px;
         top: 45%;
         left: 59%;
         letter-spacing: 6px;
@@ -284,7 +286,7 @@ footer p{
         text-align: right;
         padding-top: 50px;
         padding-right: 20px;
-        font-size: 30px;
+        font-size: 20px;
         transform: translateX(270px);
         transition: 0.3s;
     }
@@ -322,34 +324,42 @@ footer p{
 
 
 /* ---------------what we do mob------------ */
+.img-place {
+
+}
     .img-place section{
-        min-height: 40vh;
+        min-height: 10vh;
     }
-    .img-place section .container{
-        width: 700px;
-        height: 500px;
-    }
+        .img-place section .container {
+            width: 700px;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
     .img-place section:nth-child(even) .container{
         flex-direction: row;
     }
     .img-place section .container .imgBx{
         position: relative;
-        width: 600px;
-        height: 300px;
-        margin-left: 37px;
+        width: 400px;
+        height: 200px;
+        margin-left: 10px;
     }
 
     .img-place section .container .content{
         margin-top: 280px;
         padding: 15px;
-        max-width: 550px;
+        max-width: 360px;
         color: #fff;
+        font-size: 14px;
     }
     .img-place section:nth-child(even) .container .content{
-        left: 60px;
+        left: 26px;
     }
     .img-place section:nth-child(odd) .container .content{
-        right: 90px;
+        right: 310px;
     }
 
 
