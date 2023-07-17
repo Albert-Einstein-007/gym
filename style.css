@@ -243,6 +243,9 @@ footer p{
 
 /* -----------------home page mobile------------------------ */
 @media(max-width: 730px){
+    header{
+        height: 50px;
+    }
     .welcome h1,.welcome h3{
         text-align: center;
     }
@@ -256,7 +259,7 @@ footer p{
         letter-spacing: 0px;
     }
     header h2{
-        font-size: 30px;
+        font-size:20px;
         margin: 20px;
     }
     header ul{
