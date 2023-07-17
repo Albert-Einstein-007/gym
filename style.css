@@ -393,6 +393,7 @@ footer p{
     /* -----------------about us page------------------------- */
     .clients .gallery #demo1 img{
         width: 250px;
+        cursor: none;
     }
 }
 
