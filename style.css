@@ -245,6 +245,7 @@ footer p{
 @media(max-width: 730px){
     header{
         height: 50px;
+        overflow: hidden;
     }
     .welcome h1,.welcome h3{
         text-align: center;
@@ -275,6 +276,8 @@ footer p{
         position: absolute;
         font-size: 30px;
         right: 5%;
+        padding-top: 2px;
+        height: 40px;
     }
     .mob-menu{
         position: fixed;
