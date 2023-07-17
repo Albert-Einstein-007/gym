@@ -278,6 +278,8 @@ footer p{
         right: 5%;
         padding-top: 2px;
         height: 40px;
+        
+        overflow: hidden;
     }
     .mob-menu{
         position: fixed;
