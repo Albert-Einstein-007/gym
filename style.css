@@ -247,14 +247,13 @@ footer p{
         text-align: center;
     }
     .welcome h1{ 
-        font-size: 30px;
+        font-size: 20px;
     }
     .welcome h3{
-        font-size: 20px;
+        font-size: 15px;
         top: 45%;
         left: 59%;
-        letter-spacing: 6px;
-        word-spacing: 13px;
+        letter-spacing: 0px;
     }
     header h2{
         font-size: 30px;
@@ -319,7 +318,7 @@ footer p{
         transform: translateY(-30px);
     }
     .img-place h1,.spl h1,.clients h1,footer h1{
-        font-size: 40px;
+        font-size: 20px;
     }
 
 
@@ -330,14 +329,14 @@ footer p{
     .img-place section{
         min-height: 10vh;
     }
-        .img-place section .container {
-            width: 700px;
-            height: 500px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
+    .img-place section .container{
+        width: 323px;
+        height: 500px;  
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .img-place section:nth-child(even) .container{
         flex-direction: row;
     }
@@ -351,15 +350,15 @@ footer p{
     .img-place section .container .content{
         margin-top: 280px;
         padding: 15px;
-        max-width: 360px;
+        max-width: 299px;
         color: #fff;
-        font-size: 14px;
+        font-size: 10px;
     }
     .img-place section:nth-child(even) .container .content{
-        left: 26px;
+        left: 15px;
     }
     .img-place section:nth-child(odd) .container .content{
-        right: 310px;
+        right: 15px;
     }
 
 
@@ -368,7 +367,14 @@ footer p{
     .spl .img-BX{
         display: flex;
         flex-direction: column;
+        margin: 0 20px 0 20px;
+        border-radius: 20px;
     }
+    .spl .img-BX div img{
+        
+        border-radius: 20px;
+    }
+
 /* -----------------footer mob------------------------- */
     footer h1{
         font-size: 20px;
@@ -383,6 +389,10 @@ footer p{
     }
     footer p{
         font-size: 20px;
+    }
+    /* -----------------about us page------------------------- */
+    .clients .gallery #demo1 img{
+        width: 250px;
     }
 }
 
